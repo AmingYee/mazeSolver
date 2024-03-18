@@ -1,0 +1,48 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+.maze {
+    display: grid;
+    grid-gap: 1px;
+}
+
+.cell {
+    background-color: #fff;
+    border: 1px solid dimgrey;
+    text-align: center;
+    line-height: 30px;
+    font-size: 11px;
+}
+
+.start {
+    background-color: green;
+}
+
+.goal {
+    background-color: red;
+}
+
+.north {
+    border-top: none;
+}
+
+.east {
+    border-right: none;
+}
+
+.south {
+    border-bottom: none;
+}
+
+.west {
+    border-left: none;
+}
+
+.path {
+    background-color: lightblue;
+}
+
+.output {
+    font-size: 12px;
+}
